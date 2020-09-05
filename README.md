@@ -5,7 +5,7 @@ You will need all of the files in the same directory in order for the rmarkdown 
 
 Easiest way to run this .Rmd file:
 
-Download all the files as a Zip file using the green Choose File button
+Download all the files as a Zip file using the green Code button
 
 Unzip the contents into a folder on your PC
 
