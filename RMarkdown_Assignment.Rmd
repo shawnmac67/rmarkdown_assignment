@@ -31,6 +31,7 @@ read_chunk('Basic R Code.R')
 
 ```
 -----
+
 ## Github Directory
 We used several exernal files to showcase some of the `rmarkdown` features.
 Github has all the files and a Read Me <https://github.com/shawnmac67/rmarkdown_assignment.git>
