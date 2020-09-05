@@ -37,8 +37,9 @@ read_chunk('Basic R Code.R')
 
 For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-R works best when take advantage of multiple packages and R Markdown is no exception. `knitr` is a package worth exploring as it allows the R Markdown `rmarkdown` to be converted to different document types. `rmarkdown` takes advantage of this relationship and knowing more about Knitr will help make your rendered documents that much better.
+R works best when taking advantage of multiple packages and `rmarkdown` is no exception. For example, `knitr` is a package worth exploring as it allows the `rmarkdown` to be converted to different document types. `rmarkdown` takes advantage of this relationship and knowing more about `knitr` will help make your rendered documents that much better.
 
+`rmarkdown` is not without challenges. The list formatting can be especially tedious, you have to get the spacing just right. The HTML and Word outputs behaved differently and it took a lot of research to figure out what worked best for both or to find a workaround.
 
 ## Data Review {.tabset}
 ### Babynames
@@ -106,7 +107,7 @@ This is the R code to find out more about the rmarkdown word_document function `
 
 -----
 
-Headers are important for any document and using the hashtag will create different headers
+Headers are important for any document and using the hashtag will create different headers.
 
 **Code Snippet**
 ```
@@ -155,7 +156,7 @@ x_{21} & x_{22} & x_{23}
 -----
 
 #### Word Template
-`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word , but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup.
+`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word, but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup. The word template used for this project (RMarkdown_Template.docx) has a customized Title (Red), In line Code (light Green) and borders around all the Tables.
 
 Adding this to the YAML header will tell `knitr` to use the pre-built template
 
