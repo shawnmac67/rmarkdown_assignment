@@ -39,8 +39,6 @@ For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 R works best when take advantage of multiple packages and R Markdown is no exception. `knitr` is a package worth exploring as it allows the R Markdown `rmarkdown` to be converted to different document types. `rmarkdown` takes advantage of this relationship and knowing more about Knitr will help make your rendered documents that much better.
 
-`rmarkdown` is not without challenges. I found the list formatting especially tedious, you have to ge the spacing just right. The HTML and Word outputs behaved differently and it took a lot of research to figure out what worked best for both or to find a workaround.
-
 
 ## Data Review {.tabset}
 ### Babynames
@@ -244,7 +242,13 @@ grid.arrange(g1,g2,g3,g4,ncol=2)
 
 ```{r plot1, echo=FALSE}
 
-```
+```  
+
+## R Markdown Challenges and Suggestions  
+
+`rmarkdown` is not without challenges. We found the list formatting especially tedious, you have to get the spacing just right. The HTML and Word outputs behaved differently and it took a lot of research to figure out what worked best for both or to find a workaround. For those of us that don't use R regularly, it can take some time to align on which documents the `rmarkdown` references in the code. For example, without proper documentation it would be difficult to identify that one needs multiple supporting files in order to get this script to execute and knit out to Word or HTML appropriately.  
+
+One Suggestion for a future `rmarkdown` version might be to include the capability for underlined text. Oddly enough, it is not currently an option. There is a workaround, but it is not technically part of the `rmarkdown` package right now. Another suggestion that speaks to a challenge we had might be the ability to format external documents that are referenced so that a new reader new reader can easily identify them. A function that would automatically call these objects and reference them in the YAML would be helpful as well.
 
 
 
