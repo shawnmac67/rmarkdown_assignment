@@ -33,7 +33,7 @@ read_chunk('Basic R Code.R')
 
 ## R Markdown Introduction
 
-`rmarkdown` allows you to create documents directly from your R Code. Using either "chunks" or "in-line" R code, `rmarkdown` allows users to document their analysis, share R code and results with colleagues and even publish a professional document for end users all within the same document. An `rmarkdown` file can be converted (knitted) out to a number of different formats including HTML, PDF and Word.
+`rmarkdown` allows you to create documents directly from your R Code. Using either "chunks" or "in-line" R code, `rmarkdown` allows users to document their analysis, share R code and results with colleagues and even publish a professional output for end users all within the same `rmarkdown` file. An `rmarkdown` file can be converted (knitted) out to a number of different formats including HTML, PDF and Word.
 
 For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -253,7 +253,7 @@ One Suggestion for a future `rmarkdown` version might be to include the capabili
 
 ## Summary  
 
-As evidenced by the documentation requirements for this project, as well as the native `rmarkdown` features built into R Studio, this package is becoming a cornerstone of the R language. The ability to quickly, neatly, and professionaly translate raw R code to a readable document that is easy to share is invaluable. Previously, a challenge for users of R in general as the limited number of ways to share finding and outputs. Reporting to non-developers could sometimes be challenging depending on the complexity of the work. `rmarkdown`'s value really is in its ability to bridge the gap between developer and end-user.
+As evidenced by the documentation requirements for this project, as well as the native `rmarkdown` features built into R Studio, this package is becoming a cornerstone of the R language. The ability to quickly, neatly, and professionaly translate raw R code to a readable document that is easy to share is invaluable. Previously, a challenge for users of R in general was the limited number of ways to share findings and outputs. Reporting to non-developers could sometimes be challenging depending on the complexity of the work. `rmarkdown`'s value really is in its ability to bridge the gap between developer and end-user.
 
 
 
