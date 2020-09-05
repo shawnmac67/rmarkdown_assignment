@@ -183,7 +183,7 @@ output:
 This video was really helpful: <https://vimeo.com/110804387>, or check out the article at <https://rmarkdown.rstudio.com/articles_docx.html>
 
 ### Chunks
-Chunks are one of the mainstays of `rmarkdown`
+Chunks are one of the mainstays of `rmarkdown`. This function of r markdown allows users to quickly and easily switch between plain text and and r code that they would like to be executed.By doing so, users can organize complex code and test individual chunks without running their entire process. Additionally, the chunks have their own built-in functionality that allow the author to do things like reference the chunks by name later in the script, publish the code behind the chunk when Knitting out to another format, and much more. As an example, the following graphs (which display name frequency by sex and year) are actually the product of two chunks. The first, which we created to be invisible to the end user, runs the data and creates the charts. The second chunk calls and displays those charts neatly without the noise of the r code that precedes it.
 
 
 
