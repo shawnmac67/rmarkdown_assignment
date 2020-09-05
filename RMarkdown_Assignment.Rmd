@@ -162,7 +162,7 @@ x_{21} & x_{22} & x_{23}
 -----
 
 #### Word Template
-`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word , but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup.
+`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word , but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup. The word template created for this project modified the Title (Red instead of Blue), highlighted the "In Line Code" (light Green) and enbaled borders for all Tables.
 
 Adding this to the YAML header will tell `knitr` to use the pre-built template
 
