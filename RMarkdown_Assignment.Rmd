@@ -33,13 +33,12 @@ read_chunk('Basic R Code.R')
 
 ## R Markdown Introduction
 
-`rmarkdown` allows you to create documents directly from your R Code. Using `rmarkdown` you can document your analysis, share R code and results with colleagues and even publish a professional document for end users. A `rmarkdown` file can be converted to a number of different formats including HTML, PDF and Word.
+`rmarkdown` allows you to create documents directly from your R Code. Using either "chunks" or "in-line" R code, `rmarkdown` allows users to document their analysis, share R code and results with colleagues and even publish a professional document for end users all within the same document. An `rmarkdown` file can be converted (knitted) out to a number of different formats including HTML, PDF and Word.
 
 For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-R works best when taking advantage of multiple packages and `rmarkdown` is no exception. For example, `knitr` is a package worth exploring as it allows the `rmarkdown` to be converted to different document types. `rmarkdown` takes advantage of this relationship and knowing more about `knitr` will help make your rendered documents that much better.
+R works best when take advantage of multiple packages and R Markdown is no exception. `knitr` is a package worth exploring as it allows the R Markdown `rmarkdown` to be converted to different document types. `rmarkdown` takes advantage of this relationship and knowing more about Knitr will help make your rendered documents that much better.
 
-`rmarkdown` is not without challenges. The list formatting can be especially tedious, you have to get the spacing just right. The HTML and Word outputs behaved differently and it took a lot of research to figure out what worked best for both or to find a workaround.
 
 ## Data Review {.tabset}
 ### Babynames
@@ -107,7 +106,7 @@ This is the R code to find out more about the rmarkdown word_document function `
 
 -----
 
-Headers are important for any document and using the hashtag will create different headers.
+Headers are important for any document and using the hashtag will create different headers
 
 **Code Snippet**
 ```
@@ -156,7 +155,7 @@ x_{21} & x_{22} & x_{23}
 -----
 
 #### Word Template
-`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word, but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup. The word template used for this project (RMarkdown_Template.docx) has a customized Title (Red), In line Code (light Green) and borders around all the Tables.
+`rmarkdown` is great for rendering to an HTML doc, but what about Word? Some of the markup tags work in Word , but most do not. Plus, what about all the great formatting functionality in Word? Well, with a little code in the YAML header we can have our `rmarkdown` rendered to a custom word template with the formatting already setup.
 
 Adding this to the YAML header will tell `knitr` to use the pre-built template
 
@@ -249,7 +248,12 @@ grid.arrange(g1,g2,g3,g4,ncol=2)
 
 `rmarkdown` is not without challenges. We found the list formatting especially tedious, you have to get the spacing just right. The HTML and Word outputs behaved differently and it took a lot of research to figure out what worked best for both or to find a workaround. For those of us that don't use R regularly, it can take some time to align on which documents the `rmarkdown` references in the code. For example, without proper documentation it would be difficult to identify that one needs multiple supporting files in order to get this script to execute and knit out to Word or HTML appropriately.  
 
-One Suggestion for a future `rmarkdown` version might be to include the capability for underlined text. Oddly enough, it is not currently an option. There is a workaround, but it is not technically part of the `rmarkdown` package right now. Another suggestion that speaks to a challenge we had might be the ability to format external documents that are referenced so that a new reader new reader can easily identify them. A function that would automatically call these objects and reference them in the YAML would be helpful as well.
+One Suggestion for a future `rmarkdown` version might be to include the capability for underlined text. Oddly enough, it is not currently an option. There is a workaround, but it is not technically part of the `rmarkdown` package right now. Another suggestion that speaks to a challenge we had might be the ability to format external documents that are referenced so that a new reader new reader can easily identify them. A function that would automatically call these objects and reference them in the YAML would be helpful as well.  
+
+
+## Summary  
+
+As evidenced by the documentation requirements for this project, as well as the native `rmarkdown` features built into R Studio, this package is becoming a cornerstone of the R language. The ability to quickly, neatly, and professionaly translate raw R code to a readable document that is easy to share is invaluable. Previously, a challenge for users of R in general as the limited number of ways to share finding and outputs. Reporting to non-developers could sometimes be challenging depending on the complexity of the work. `rmarkdown`'s value really is in its ability to bridge the gap between developer and end-user.
 
 
 
