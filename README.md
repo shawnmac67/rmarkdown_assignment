@@ -14,7 +14,7 @@ Open the 'RMarkdown_Assignment.rmd' file
 Once R Studio is open, navigate to Session > Set Working Directory > To Source File Location
 
 Then Knit away!!
-*R Studio has the conversion package knitr built into the application, so there is a button all ready for converting (Knit)
+*R Studio has the conversion package knitr built into the application, so there is a button ready for converting (Knit)
 
 To start knitting, select the dropdown next to the needle and ball of yarn and pick the desired document type.
 
