@@ -25,11 +25,13 @@ library(ggplot2)
 library(gridExtra)
 
 ```
+
 ```{r external, echo=FALSE}
 
 read_chunk('Basic R Code.R')
 
 ```
+
 -----
 
 ## Github Directory
