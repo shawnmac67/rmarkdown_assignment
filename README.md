@@ -13,8 +13,6 @@ Open the 'RMarkdown_Assignment.rmd' file
 
 Once R Studio is open, navigate to Session > Set Working Directory > To Source File Location
 
-Select Run All from the Run Drop Down (or Ctrl+Alt+R)
-
 Then Knit away!!
 *R Studio has the conversion package knitr built into the application, so there is a button all ready for converting (Knit)
 
