@@ -177,8 +177,9 @@ output:
 ```
 
 1.    First you need to generate a Word Document from an `rmarkdown` file. 
-1.    Then open the word doc and expand the Style section in the Ribbon
-1.    Save the template and reference with the code above
+1.    Then open the word doc and expand the Style section in the Ribbon (Figure 1).
+1.    Update the template with you formatting changes (Figure 2).
+1.    Save the template and reference with the code above 
 
 
 ![Figure 1](word_ribbon.jpg)
