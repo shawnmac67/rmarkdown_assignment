@@ -265,7 +265,7 @@ One Suggestion for a future `rmarkdown` version might be to include the capabili
 
 ## Summary  
 
-As evidenced by the documentation requirements for this project, as well as the native `rmarkdown` features built into R Studio, this package is becoming a cornerstone of the R language. The ability to quickly, neatly, and professionally translate raw R code to a readable document that is easy to share is invaluable. Previously, a challenge for users of R in general as the limited number of ways to share finding and outputs. Reporting to non-developers could sometimes be challenging depending on the complexity of the work. `rmarkdown`'s value really is in its ability to bridge the gap between developer and end-user.
+As evidenced by the documentation requirements for this project, as well as the native `rmarkdown` features built into R Studio, this package is becoming a cornerstone of the R language. The ability to quickly, neatly, and professionally translate raw R code to a readable document that is easy to share is invaluable. Previously, a challenge for users of R in general was the limited number of ways to share findings and outputs. Reporting to non-developers could sometimes be challenging depending on the complexity of the work. `rmarkdown`'s value really is in its ability to bridge the gap between developer and end-user.
 
 
 
